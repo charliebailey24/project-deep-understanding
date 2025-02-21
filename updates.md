@@ -42,3 +42,23 @@ None at the moment.
 
 #### Reflection on the process you used last week, how can you make the process work better?
 Unfortunately, I was quite sick for a couple of days, which impacted my productivity. Considering the circumstances, I’m pleased with what I managed to accomplish. Hopefully, this week will be more productive.
+
+
+### Week 5:
+#### What did you do last week?
+
+I spent this past week getting up to speed on transformers and the GPT architecture. I read the first chapter of BaLLM, the seminal paper on transformers, "Attention is all you need," and got about a quarter of the way through Andrej Karpathy's "Let's Build GPT" tutorial.
+
+I also spent a fair amount of time building out my portfolio. Since this project is intended to be a portfolio piece, it makes sense to spend some time building out the rest of my portfolio to present it in the best possible light.
+
+#### What do you plan to do this week?
+
+This coming week, I plan to work through chapter 2 of BaLLM, which focuses on understanding how to work with text data. I also want to set up the environment a bit more and continue working through the Karpathy tutorial. A stretch goal for this coming week is to look into the coding work for the attention mechanism and potentially start setting up some of the scaffolding.
+
+#### Are there any impediments in your way?
+
+None at the moment.
+
+#### Reflection on the process you used last week, how can you make the process work better?
+
+For the last three weeks, I've basically been doing all of my work during a single 4-hour period on Thursday night. While this has been working in terms of staying on track, I'm finding the time block to be a bit constrained—there's just more that I want to work on. This week, I'm going to try breaking up the work into two 2-3 hour blocks to see if that allows me to be more productive and revisit specific points that I want to follow up on.
