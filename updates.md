@@ -62,3 +62,23 @@ None at the moment.
 #### Reflection on the process you used last week, how can you make the process work better?
 
 For the last three weeks, I've basically been doing all of my work during a single 4-hour period on Thursday night. While this has been working in terms of staying on track, I'm finding the time block to be a bit constrained—there's just more that I want to work on. This week, I'm going to try breaking up the work into two 2-3 hour blocks to see if that allows me to be more productive and revisit specific points that I want to follow up on.
+
+
+### Week 6-7:
+#### What did you do last week?
+
+It's been a rough two weeks. A bunch of things ended up coalescing on my schedule at once, so I ended up not being able to make any progress in week 6, which was a bummer. But I was able to carve out some time this past week and am finally into the build phase, which feels good. At this stage, I'm basically just following along with the BaLLM book in a more tutorial-like style. I set up a preprocessing pipeline that takes in a single text, converts it to individual tokens using regex, creates a unique vocabulary, and then assigns each token a unique token ID.
+
+#### What do you plan to do this week?
+
+Next week, I plan to finish the text preprocessing phase by creating token embeddings and encoding word position. If that goes quickly, I will move into coding the attention mechanism.
+
+As luck would have it, we are just now getting into the transformer portion on the NLP course and I am extremely grateful to have that content to lean on for this project. I tend to get overwhelmed by complexity, so having Professor Guinn's lectures to reference in this project has been immensely helpful.
+
+#### Are there any impediments in your way?
+
+Right now, my biggest conceptual hurdle is trying to understand which parts of the BaLLM book simply introduce a concept and which parts I actually need to build and integrate into this project. As I was working through this chapter this past week, there was a point where the author said, "We will be using a more robust preprocessor in our implementation," nothing else was introduced, and the next chapter goes right into coding the attention mechanism. Parsing out exactly what needs to be built is definitely the most difficult challenge I am facing right now.
+
+#### Reflection on the process you used last week, how can you make the process work better?
+
+At this point, I'm just trying to keep my head above water. It looks like things should lighten up a bit next week, so hopefully, I won't be too pressed to get my full 4 hours in.
