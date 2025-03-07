@@ -73,7 +73,7 @@ It's been a rough two weeks. A bunch of things ended up coalescing on my schedul
 
 Next week, I plan to finish the text preprocessing phase by creating token embeddings and encoding word position. If that goes quickly, I will move into coding the attention mechanism.
 
-As luck would have it, we are just now getting into the transformer portion on the NLP course and I am extremely grateful to have that content to lean on for this project. I tend to get overwhelmed by complexity, so having Professor Guinn's lectures to reference in this project has been immensely helpful.
+As luck would have it, we are just now getting into the transformer portion on the NLP course and I am extremely grateful to have that content to lean on for this project. I tend to get overwhelmed by complexity, so having Professor Guinn's lectures to reference in this project have been immensely helpful.
 
 #### Are there any impediments in your way?
 
@@ -82,3 +82,39 @@ Right now, my biggest conceptual hurdle is trying to understand which parts of t
 #### Reflection on the process you used last week, how can you make the process work better?
 
 At this point, I'm just trying to keep my head above water. It looks like things should lighten up a bit next week, so hopefully, I won't be too pressed to get my full 4 hours in.
+
+
+### Week 8:
+#### What did you do last week?
+This week I continued to work on the text preprocessing pipeline. I realize that a lot of the work I did last week ended up being unnecessary—which was disappointing. In building along with the BaLLM book, I'm realizing now that the author alternates between educational exercises to better understand the underlying mechanics and the implementation of the actual code needed to make the LLM system work. I had been diligently following along with all the examples, but most of that work ended up being unnecessary for the actual end product—which was definitely disappointing.
+
+Following this, I ended up re-building tokenization preprocessing pipeline using a BPE tokenizer that I imported from an external library hosted by OpenAI. The library is called `tiktoken` and I utilized the BPE tokenizer used in GPT-2. I then created a simple data sampling sliding window that illustrated the context to next token prediction scheme Anon will be using (oh yeah, I also named my LLM Anon). After implementing this though, I again realized that it was another educational exercise and not a functional final implementation. This sliding window exercise was just a preview for a slightly more complex data loader implementation that utilizes the `Dataset` and `DataLoader` built-in classes from PyTorch. I ended this week learning more about these classes and tensors in general (which I will have to use for the data loader).
+
+#### What do you plan to do this week?
+Next week, I plan to finish the data loader—which is the final step in the preprocessing pipeline—and then begin working on the building the attention mechanism. I realize I'm falling behind schedule, so I want to try and put in some additional hours this week to get back on track.
+
+#### Are there any impediments in your way?
+I need to decide how much time I want to devote to working through the educational exercise in the BaLLM book. I find the exercises very helpful for comprehension and understanding in terms of what I'm building, but they also take up a lot of time and don't contribute to my overall progress on the project. It's tough to know if I should "go slow to go fast" (i.e., spend the time to deeply understand what I'm building to make the development process easier down the line) or charger ahead with the main components with a potentially less deep understanding of what I'm actually building. My normal style would be to go for the depth of understanding; however, I worry this will likely result in running out of time to fully complete the project.
+
+#### Reflection on the process you used last week, how can you make the process work better?
+I really want to try and break up my time block for this project into two periods next week. I keep saying I am going to do this, but then other obligations get in the way and I end up doing all of my work during a single time block. It seems like I have a little slack in my schedule this week though so I think I should be able to switch things up and see how it goes.
+
+
+### Week 8:
+#### What did you do last week?
+
+This week I continued to work on the text preprocessing pipeline. I realize that a lot of the work I did last week ended up being unnecessary—which was disappointing. In building along with the BaLLM book, I'm realizing now that the author alternates between educational exercises to better understand the underlying mechanics and implementation of the actual code needed to make the LLM system work. I had been diligently following along with all the examples, but most of that work was unnecessary for the end product—which was disappointing.
+
+Following this, I ended up re-building the tokenization preprocessing pipeline using a BPE tokenizer that I imported from an external library hosted by OpenAI. The library is called `tiktoken` and I utilized the BPE tokenizer used in GPT-2. I then created a simple data sampling sliding window that illustrated the context to next token prediction scheme Anon will be using (oh yeah, I also named my LLM Anon). After implementing this, I realized it was another educational exercise and not a functional final implementation. This sliding window exercise was just a preview for a more complex data loader implementation that utilizes the `Dataset` and `DataLoader` built-in classes from PyTorch. I ended this week learning more about these classes and tensors in general (which I will have to use for the data loader).
+
+#### What do you plan to do this week?
+
+Next week, I plan to finish the data loader—which is the final step in the preprocessing pipeline—and then begin working on building the attention mechanism. I realize I'm falling behind schedule, so I want to try and put in some additional hours this week to get back on track.
+
+#### Are there any impediments in your way?
+
+I need to decide how much time I want to devote to working through the educational exercise in the BaLLM book. I find the exercises very helpful for comprehension and understanding in terms of what I'm building, but they also take up a lot of time and don't contribute to my overall progress on the project. It's tough to know if I should "go slow to go fast" (i.e., take the time to deeply understand what I'm building to make the development process easier down the line) or charger ahead with the main components with a potentially less deep understanding of what I'm actually building. My normal style would be to go for the depth of understanding; however, I worry this will likely result in running out of time to fully complete the project.
+
+#### Reflection on the process you used last week, how can you make the process work better?
+
+I really want to try to break up my time block for this project into two periods next week. I keep saying I am going to do this, but then other obligations get in the way and I end up doing all of my work during a single time block. It seems like I have a little slack in my schedule this week though so I think I should be able to switch things up and see how it goes.
