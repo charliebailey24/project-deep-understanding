@@ -6,4 +6,6 @@ Charlie Bailey
 
 ## [Project Proposal](/proposal.md)
 
+## [Midpoint Update](/midpoint_update.md)
+
 ## [Weekly Updates](/updates.md)

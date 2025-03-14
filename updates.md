@@ -102,3 +102,25 @@ I need to decide how much time I want to devote to working through the education
 #### Reflection on the process you used last week, how can you make the process work better?
 
 I really want to try to break up my time block for this project into two periods next week. I keep saying I am going to do this, but then other obligations get in the way and I end up doing all of my work during a single time block. It seems like I have a little slack in my schedule this week though so I think I should be able to switch things up and see how it goes.
+
+
+### Week 9:
+#### What did you do last week?
+
+I finally finished the preprocessing pipeline! The pipeline has a custom PyTorch Dataset class that processes raw text into overlapping "chunks" using a sliding window approach. It then tokenizes the text using the GPT-2 tokenizer, embeds the token in an embedding vector and then concatenates this with a positional vector—resulting in the final input embeddings that are ready to be passed into the transformer attention mechanism. Here are some screenshots of the interim output:
+
+![Dataloader inputs and targets](./assets/dataloader_inputs_targets.png)
+
+![Final input embeddings](./assets/input_embeddings.png)
+
+#### What do you plan to do this week?
+
+Next week I will get started on building the attention mechanism. I'm pretty excited for this part.
+
+#### Are there any impediments in your way?
+
+Nothing right now. Feels good to have achieved a tangible milestone.
+
+#### Reflection on the process you used last week, how can you make the process work better?
+
+Still stuck in the 4 hour block on Thursdays. I was actually able to get closer to 5 this week with the project proposal write up. I'm starting to think the 4 hours of deep work might actually be more desirable than attempting to break up the work period. There's something to be said for getting loaded into a project and going into flow state.
