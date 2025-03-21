@@ -124,3 +124,32 @@ Nothing right now. Feels good to have achieved a tangible milestone.
 #### Reflection on the process you used last week, how can you make the process work better?
 
 Still stuck in the 4 hour block on Thursdays. I was actually able to get closer to 5 this week with the project proposal write up. I'm starting to think the 4 hours of deep work might actually be more desirable than attempting to break up the work period. There's something to be said for getting loaded into a project and going into flow state.
+
+
+### Week 10:
+#### What did you do last week?
+
+This week I entered the belly of the beast—coding the transformer attention mechanism. In doing a first skim through the chapter, I will say I'm a little intimidated about the portion of the project. Luckily though, the BaLLM tutorial takes things one step at a time which definitely helps calm my "complexity anxiety."
+
+This week ended up being very heavy on conceptual understanding. I spent a lot of my time whiteboarding the concepts that were being explained/coded. In the end, I was able to implement and conceptually wrap my head around a context vector and how it is computed. The three images below essentially mirror the process I went through this week–study the concept in the book, implement the concept in the code, whiteboard the concept to fully understand what each line of code is doing.
+
+![Context Vector Calculation Diagram](./assets/context_vec_calc_diagram.png)
+Raschka, Sebastian. Build a Large Language Model (From Scratch) (p. 124). (Function). Kindle Edition.
+
+![Context Vector Code](./assets/context_vec_code_annotated.png)
+
+![Context Vector Whiteboard](./assets/context_vec_whiteboard.png)
+
+There is a lot going on in what amounts to not very many lines of code, so I feel like it's crucial to understand exactly what each line is doing so I don't get lost later on down the road.
+
+#### What do you plan to do this week?
+
+Next week and over the break I'm going continue building the self-attention mechanism. I'm hoping that once I fully understand the fundamentals of the attention mechanism, the rest of this portion of the project will go a bit more quickly. With some extra time over the break, I'm setting a stretch goal to have the attention mechanism completed by April 3rd.
+
+#### Are there any impediments in your way?
+
+Nothing specifically right now. Just trying not to get too overwhelmed by the complexity and continuing to focus on one step at a time.
+
+#### Reflection on the process you used last week, how can you make the process work better?
+
+I decided to really slow down and focus on conceptual understanding this week. This is a complex portion of the project, so I think it is worth spending a bit more time now rather than charging ahead without a solid grasp on what exactly it is that I'm building.
