@@ -153,3 +153,39 @@ Nothing specifically right now. Just trying not to get too overwhelmed by the co
 #### Reflection on the process you used last week, how can you make the process work better?
 
 I decided to really slow down and focus on conceptual understanding this week. This is a complex portion of the project, so I think it is worth spending a bit more time now rather than charging ahead without a solid grasp on what exactly it is that I'm building.
+
+
+
+### Week 11:
+#### What did you do last week?
+
+This week I continued to work on coding the self-attention mechanism. I finished with the simple self-attention mechanism tutorial and have moved into the trainable self-attention mechanism. This mechanism introduces the concepts of query, key and value vectors—which took / are taking a bit of work to wrap my head around exactly how they operate. Following Professor Guinn's advice from my mid-semester report, I've started documenting my learning process as I go through these tutorials. I've also been using the `Speech and Language Processing. Daniel Jurafsky & James H. Martin.` textbook from the NLP class to help understand some of the conceptual hurdles like the query, key and value vectors. The goal here is to provide a clear, elaborate record for the learnings gained in each aspect of the project to formulate good talking points in an interview setting. 
+
+#### What do you plan to do this week?
+
+I'm planning to continue coding the attention mechanism. Flipping through the remainder of the chapter, I'm getting a little worried about how long this section of the project will take. I'm continuing to focus on deeply understanding each aspect I code, but with something as complex as a transformer, it just takes a lot of time to process.
+
+#### Are there any impediments in your way?
+
+The relentless march of time.
+
+#### Reflection on the process you used last week, how can you make the process work better?
+
+I don't have any notes in terms of improvements this week. I feel that I'm in a good place with my conceptual understandings. I just need to keep at it.
+
+
+
+### Week 12-13:
+#### What did you do last week?
+Unfortunately I had another convergence of work/personal/school stuff hit my plate and wasn't able to work on the project last week. This week though, I was able to make up a bit of time and I'm *almost* done coding the LLM attention mechanism. I've implemented the 'simplified self-attention', 'trainable self-attention', and 'causal self-attention' mechanisms. The causal (or masked) self-attention mechanism is really the only one I will need to finish the project, but it was well worth the learning to go through the exercises of iteratively building up each portion of the attention mechanism one step at a time. In looking at the final compact code for the causal self-attention mechanism, I'm feeling very good about the decision to work through all of the learning example. The final class is only ~25 lines of code, but contained in that are so many matrix multiplications and data transformations that it would be almost impossible to understand what is going without having first broken each part out and implemented it individually line by line.
+
+In addition to this, I've continued to update my Learning Process journal—taking the time to really understand and document the parts that were particularly confusing.
+
+#### What do you plan to do this week?
+This week is plan to finish the attention mechanism by extending the causal self-attention to be multi-head attention. Luckily, this part looks fair straight forward. After that, I'll begin working on the final full GPT architecture.
+
+#### Are there any impediments in your way?
+This is going to be a very difficult push to the end of the semester. In addition to two other AI/ML final projects, my best friend also decided that next weekend would be a good time to get married in the Bahamas. I literally don't think I could have picked a worse week in the semester if I tried. As it is, this class unfortunately tends to fall to the bottom of my priority queue. I'm going to try and put in as much time as I can, but these next two weeks are definitely going to be a grind to get everything completed on time.
+
+#### Reflection on the process you used last week, how can you make the process work better?
+No change in the previous process. The best thing I can do is spend more time working on this project to get everything I need to done.
