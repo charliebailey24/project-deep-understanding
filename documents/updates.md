@@ -109,9 +109,9 @@ I really want to try to break up my time block for this project into two periods
 
 I finally finished the preprocessing pipeline! The pipeline has a custom PyTorch Dataset class that processes raw text into overlapping "chunks" using a sliding window approach. It then tokenizes the text using the GPT-2 tokenizer, embeds the token in an embedding vector and then concatenates this with a positional vector—resulting in the final input embeddings that are ready to be passed into the transformer attention mechanism. Here are some screenshots of the interim output:
 
-![Dataloader inputs and targets](./assets/dataloader_inputs_targets.png)
+![Dataloader inputs and targets](../assets/dataloader_inputs_targets.png)
 
-![Final input embeddings](./assets/input_embeddings.png)
+![Final input embeddings](../assets/input_embeddings.png)
 
 #### What do you plan to do this week?
 
@@ -133,12 +133,12 @@ This week I entered the belly of the beast—coding the transformer attention me
 
 This week ended up being very heavy on conceptual understanding. I spent a lot of my time whiteboarding the concepts that were being explained/coded. In the end, I was able to implement and conceptually wrap my head around a context vector and how it is computed. The three images below essentially mirror the process I went through this week–study the concept in the book, implement the concept in the code, whiteboard the concept to fully understand what each line of code is doing.
 
-![Context Vector Calculation Diagram](./assets/context_vec_calc_diagram.png)
+![Context Vector Calculation Diagram](../assets/context_vec_calc_diagram.png)
 Raschka, Sebastian. Build a Large Language Model (From Scratch) (p. 124). (Function). Kindle Edition.
 
-![Context Vector Code](./assets/context_vec_code_annotated.png)
+![Context Vector Code](../assets/context_vec_code_annotated.png)
 
-![Context Vector Whiteboard](./assets/context_vec_whiteboard.png)
+![Context Vector Whiteboard](../assets/context_vec_whiteboard.png)
 
 There is a lot going on in what amounts to not very many lines of code, so I feel like it's crucial to understand exactly what each line is doing so I don't get lost later on down the road.
 

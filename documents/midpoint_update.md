@@ -2,9 +2,11 @@
 ## Mid-point Update
 
 #### Developer
+
 Charlie Bailey
 
 #### Reflection on Project Goals
+
 The initial vision for this project was to create a large language model entirely from scratch. While this still remains the desired deliverable from this project, I have shifted this slightly to more clearly align with the process I have gone through over the past 5 weeks. While it is a subtle pivot, I think the intention is important. My vision for this project now is to **deeply and fundamentally understand how LLM work by building one from scratch.** While the deliverable remains the same, the goal state is slightly more nuanced.
 
 As I have been following the tutorial laid out in Sebastian Raschka's book [Build a Large Language Model From Scratch](https://www.amazon.com/Build-Large-Language-Model-Scratch/dp/1633437167) (BaLLM), I've realized that most of the core code to generate a functioning LLM has already been written. I could probably go through the book in a weekend or a few days, cherry-pick the most important structural components and having a deliverable that meets the goal of having a working LLM that generates conversational text. But I would have learned nothing in the process! I've realized that the real value in this project will be the **understanding** that comes from working through this tutorial book bit by bit—pausing at the appropriate points to fully understand the code I'm writing rather than just regurgitating Sebastian's work.
@@ -14,6 +16,7 @@ In this first 5 weeks, I would estimate that 70% of the code I've written ended 
 So, the TLDR of the above is—the project remains on track, slightly behind schedule, but that's ok because I'm giving myself permission to take my time and deeply understand how LLMs work at a foundational level.
 
 #### Milestones Update
+
 We are currently in week 5 of this project. Here is where I stand on my original milestones timeline:
 
 | Weeks | Goal | Status | 

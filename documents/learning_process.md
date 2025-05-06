@@ -25,11 +25,12 @@ Each input embedding plays 3 roles simultaneously:
 
 set require_grad=False to reduce output clutter in building. Change to True to update the weight matrices during model training.
 
-![Transformer self-attention diagram](./assets/transformer_self_attention_diagram.png)
+![Transformer self-attention diagram](../assets/transformer_self_attention_diagram.png)
 
 Image citation: Daniel Jurafsky and James H. Martin. 2025. Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models, 3rd edition. Online manuscript released January 12, 2025. https://web.stanford.edu/~jurafsky/slp3.
 
 #### Calculating the attention weights
+
 This is an important line to break down:
 
 `attn_weights_2 = torch.softmax(attn_scores_2 / d_k**0.5, dim=-1)`
@@ -43,6 +44,7 @@ Raschka, Sebastian. Build a Large Language Model (From Scratch) (Function). Kind
 --> Deeper dive for another time: need to understand the "vanishing gradient."
 
 #### Compute the context vector
+
 What exactly is the context vector?
 
 "At its heart, attention is really just a weighted sum of context vectors, with a lot of complications added to how the weights are computed and what gets summed." -J&M
@@ -51,17 +53,18 @@ What exactly is the context vector?
 
 The context vector is simply a weighted sum over the value vectors—with the weighting being done by the attention weights.
 
-![Context Vector Computation](./assets/context_vector_computation.png)
+![Context Vector Computation](../assets/context_vector_computation.png)
 
 Image citation: Raschka, Sebastian. Build a Large Language Model (From Scratch) (Function). Kindle Edition.
 
 From this process, we can generalize to compute to context vectors for the entire input sequence.
 
 ### Causal self-attention
+
 Casual self-attention is also known as masked self-attention. The key idea is that we take the attention weights for an input token and restrict the model to only consider **previous and current inputs** when processing any given token when computing attention scores.
 
 This process is fairly straightforward in that all we need do is create a mask matrix that is 1s below the diagonal and 0s above. We then multiply our attention weights by the mask and renormalize each row. One important point to note is that the renormalization does not leak any information due to the mathematics of the softmax function.
 
 "The mathematical elegance of softmax is that despite initially including all positions in the denominator, after masking and renormalizing, the effect of the masked positions is nullified—they don’t contribute to the softmax score in any meaningful way."
 
-Raschka, Sebastian. Build a Large Language Model (From Scratch) (Function). Kindle Edition. 
+Raschka, Sebastian. Build a Large Language Model (From Scratch) (Function). Kindle Edition.
