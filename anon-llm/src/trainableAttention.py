@@ -1,10 +1,5 @@
 import torch
-import urllib.request
-import re
-import tiktoken
-from importlib.metadata import version
 from tiktoken._educational import *
-from torch.utils.data import Dataset, DataLoader
 from preprocessing import *
 import torch.nn as nn
 
@@ -153,5 +148,3 @@ class TrainableSelfAttention():
         torch.manual_seed(789)
         self_attn_v2 = SelfAttention_v2(d_in, d_out)
         print(f'All context vectors for "Your journey begins with a single step"::: \n{self_attn_v2(inputs)}\n')
-
-

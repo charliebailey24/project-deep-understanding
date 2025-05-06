@@ -1,15 +1,10 @@
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
-import urllib.request
-import re
-import tiktoken
 from tiktoken._educational import *
-from importlib.metadata import version
 from preprocessing import *
 from trainableAttention import *
 
-class CausalAttention_v1(nn.Module):
+class CausalAttention_v2(nn.Module):
     """
     A simple causal self-attention layer that computes attention scores and context vectors.
     """
@@ -36,7 +31,7 @@ class CausalAttention_v1(nn.Module):
         context_vec = attn_weights @ values
         return context_vec
 
-class CausalAttention():
+class CausalAttention_v1():
 
     def generateExample(self):
         """
@@ -106,13 +101,7 @@ class CausalAttention():
 
         # test the causal attention layer
         context_length = batch.shape[1]
-        causal_attn = CausalAttention_v1(d_in, d_out, context_length, dropout=0.5)
+        causal_attn = CausalAttention_v2(d_in, d_out, context_length, dropout=0.5)
         context_vecs = causal_attn(batch)
         print(f'Context vectors shape::: {context_vecs.shape}\n')
         print(f'Context vectors::: \n{context_vecs}\n')
-
-
-
-
-        
-

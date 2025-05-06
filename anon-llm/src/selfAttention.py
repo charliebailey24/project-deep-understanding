@@ -1,10 +1,5 @@
 import torch
-import urllib.request
-import re
-import tiktoken
-from importlib.metadata import version
 from tiktoken._educational import *
-from torch.utils.data import Dataset, DataLoader
 from preprocessing import *
 
 

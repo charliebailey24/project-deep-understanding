@@ -1,11 +1,15 @@
 # project-deep-understanding
+
 A personal project to build an LLM from scratch.
 
-#### Developer
+## [Project Proposal](documents/proposal.md)
+
+## [Midpoint Update](documents/midpoint_update.md)
+
+## [Weekly Updates](documents/updates.md)
+
+## [Final Report](documents/final_report.md)
+
+### Developer
+
 Charlie Bailey
-
-## [Project Proposal](/proposal.md)
-
-## [Midpoint Update](/midpoint_update.md)
-
-## [Weekly Updates](/updates.md)

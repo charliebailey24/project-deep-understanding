@@ -189,3 +189,36 @@ This is going to be a very difficult push to the end of the semester. In additio
 
 #### Reflection on the process you used last week, how can you make the process work better?
 No change in the previous process. The best thing I can do is spend more time working on this project to get everything I need to done.
+
+
+
+### Week 14:
+#### What did you do last week?
+Apologies for the late update. As expected, last week ended up being very chaotic in terms of hitting all of my deadlines due to personal travel for my friends wedding. Luckily, I had ~6 hours of time to work on the plane ride back yesterday afternoon and was able to make some descent progress! I finally completed the self attention mechanism with the full implementation of the multi-headed causal attention class and have now moved on to building the full GPT architecture.
+
+#### What do you plan to do this week?
+At this point I have resigned myself to the realization that I will not be completing this project by the end of the semester. In hindsight, it was probably a mistake to taken on such an ambitious project on top of an already overly ambitious course load plus work obligations. That being said, I do feel this project as given me a much better understanding for how LLMs work. I also feel that—given sufficiently more time and attention—I will have no problem completing this project as I move into the job search. Despite biting off more than I could chew, I'm still glad I made the decision to pursue this project as this likely would have remained an item on my "want to do list" that never ended up getting started. Now, though, I have momentum and all of the tools and knowledge I need to get this project across the finish line and add a (hopefully) unique talking point to my portfolio as I begin my job search for an AI/ML engineering role.
+
+This week, I intend to make one final push to get as much done as possible, then reflect on my project learnings in the final report.
+
+#### Are there any impediments in your way?
+Luckily the final report for this project isn't due until May 3rd, so I should have a good amount of time at the end of the week to make one final push on this project.
+
+#### Reflection on the process you used last week, how can you make the process work better?
+I knew this past week was going to be hectic in light of personal travel, but I actually found it to be quite zen working on the plane.
+
+
+### Week 15:
+#### What did you do last week?
+I spent this past week attempting to find a good stopping point in my project. I'm still continuing to build out the main GPT architecture, so it's a sure thing at this point that I won't finish the project as initially planned. I still feel I've made good progress though and I've started working on cleaning up my "learnings" notebook. I'm trying to figure out the best way to present what I've done in the final project report and I think I want to formalize this notebook a bit more to include more prominently in my report.
+
+Even though I'm not going to meet my original project goal, I am still very excited about this project and plan to continue working on it on the side as I enter the job hunt. It's been very fun thinking of all the little experiments I can try with my own little GPT model!
+
+#### What do you plan to do this week?
+This week I plan to wrap everything up and finish my final report.
+
+#### Are there any impediments in your way?
+Nope, it'll all be over by tomorrow night!
+
+#### Reflection on the process you used last week, how can you make the process work better?
+It's been pretty much the same work process this entire semester—this project gets shunted to the bottom of my priority pile and I end up doing all the work in a single time block. I'll have a lot to reflect on in my final report, but this has been a humbling lesson in setting reasonable expectations and not biting off more than you can chew.

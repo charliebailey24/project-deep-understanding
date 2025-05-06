@@ -1,5 +1,4 @@
 import torch
-import urllib.request
 import re
 import os
 import tiktoken
@@ -126,8 +125,6 @@ class Preprocess():
 
         return input_embeddings
 
-############################################
-# DEPRECATED
     def bpe_tokenize(self, text):
         """
         Split raw text into a list of tokens using byte-pair encoding.
@@ -160,8 +157,7 @@ class Preprocess():
             desired = enc_sample[j]
             print(self.tokenizer.decode(context), "---->", self.tokenizer.decode([desired]))
 
-############################################
-# FOR EDUCATIONAL PURPOSES ONLY!!
+#################### FOR EDUCATIONAL PURPOSES ONLY!! ########################
 class SimplePreprocess():
     def tokenize(self, text):
         """

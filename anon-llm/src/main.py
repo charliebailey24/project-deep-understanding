@@ -1,10 +1,5 @@
 import torch
-import urllib.request
-import re
-import tiktoken
-from importlib.metadata import version
 from tiktoken._educational import *
-from torch.utils.data import Dataset, DataLoader
 from preprocessing import *
 from selfAttention import *
 from trainableAttention import *
@@ -21,7 +16,6 @@ def main():
     print("Anon is coming.")
     print('\n')
 
-    # UNCOMMENT TO SEE ORIGINAL PREPROCESSOR
     # instantiate the preprocessor
     preprocessor = Preprocess()
 
@@ -41,7 +35,7 @@ def main():
 
     print(f'\n\n\n:::::::::CAUSAL SELF-ATTENTION EXAMPLE:::::::::\n\n\n')
     # initiate the causal self-attention demo
-    causal_self_attn = CausalAttention()
+    causal_self_attn = CausalAttention_v1()
     causal_self_attn.generateExample()
     
 
